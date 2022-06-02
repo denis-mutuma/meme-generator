@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/denis-mutuma/meme-generator/static/css/main.77e0c756.css",
+    "main.js": "/denis-mutuma/meme-generator/static/js/main.d66f3b71.js",
+    "static/js/787.e90e8eba.chunk.js": "/denis-mutuma/meme-generator/static/js/787.e90e8eba.chunk.js",
+    "static/media/troll-face.png": "/denis-mutuma/meme-generator/static/media/troll-face.f781e84c114ad06b1e84.png",
+    "index.html": "/denis-mutuma/meme-generator/index.html",
+    "main.77e0c756.css.map": "/denis-mutuma/meme-generator/static/css/main.77e0c756.css.map",
+    "main.d66f3b71.js.map": "/denis-mutuma/meme-generator/static/js/main.d66f3b71.js.map",
+    "787.e90e8eba.chunk.js.map": "/denis-mutuma/meme-generator/static/js/787.e90e8eba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77e0c756.css",
+    "static/js/main.d66f3b71.js"
+  ]
+}
