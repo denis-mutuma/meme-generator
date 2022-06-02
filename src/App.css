@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+:root {
+  --black-color: #221f1f 1.18%;
+  --grey-color: #605b5b 100%;
+}
+
 body {
   margin: 0;
 }
@@ -11,7 +16,7 @@ main {
 }
 
 .header {
-  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  background: linear-gradient(90deg, var(--black-color), var(--grey-color));
   height: 65px;
   padding: 18px;
   color: white;
@@ -31,11 +36,6 @@ main {
   margin-right: 6px;
 }
 
-.header--project {
-  font-size: 0.85rem;
-  font-weight: 500;
-}
-
 .form {
   display: grid;
   grid-template: 40px 40px / 1fr 1fr;
@@ -51,7 +51,7 @@ main {
 .form--button {
   grid-column: 1 / -1;
   border-radius: 5px;
-  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  background: linear-gradient(90deg, var(--black-color), var(--grey-color));
   color: white;
   border: none;
   cursor: pointer;
@@ -83,15 +83,15 @@ main {
   color: white;
   letter-spacing: 1px;
   text-shadow:
-    2px 2px 0 #000,
-    -2px -2px 0 #000,
-    2px -2px 0 #000,
-    -2px 2px 0 #000,
-    0 2px 0 #000,
-    2px 0 0 #000,
-    0 -2px 0 #000,
-    -2px 0 0 #000,
-    2px 2px 5px #000;
+    2px 2px 0 var(--black-color),
+    -2px -2px 0 var(--black-color),
+    2px -2px 0 var(--black-color),
+    -2px 2px 0 var(--black-color),
+    0 2px 0 var(--black-color),
+    2px 0 0 var(--black-color),
+    0 -2px 0 var(--black-color),
+    -2px 0 0 var(--black-color),
+    2px 2px 5px var(--black-color);
 }
 
 .top {
